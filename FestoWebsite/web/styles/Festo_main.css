@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2018, 9:42:49 PM
+    Author     : Cesarito
+*/
+html{
+    background-color: gray;
+}
+body{
+     /*background: gray;
+     margin: auto;
+    padding: 15px 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 1200px;
+    height: 80%;*/
+width: 1000px;
+margin:auto;
+}
+a {
+    padding-left:30px;
+}
+
+label{
+    float:left;
+    width: 12em;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+
+input [type="text"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 200px;
+}
+
+select{
+    width: 15em;
+    margin-bottom: 2em;
+}
+
+input [type="number"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 200px;
+}
+input [type="submit"]{
+    margin-left:20em;
+}
+br{
+    clear: both;
+}
+.column{
+    float: left;
+    width:25%;
+    padding: 10px;
+}
+
+.column_center{
+    float:left;
+   /* width: 50%;*/
+    padding:10px;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+
+.content{
+    /*width:1200px;*/
+    /*margin:auto;*/
+    padding-top:30px;
+    background-color:white;
+}
+.squareContainer{
+      background-color: white;
+    /*width: 1000px;*/
+    border: 25px solid gray;
+    padding: 25px;
+    padding-top: 0px;
+    margin: auto;
+}
+.innerContent{
+   /* max-width:400px;*/
+    text-align: center;
+    
+}
+/*
+.innerContent{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+}
+.innerContent>div{
+    padding-left:60px;
+}*/
+
+img {
+    width:100px;
+    max-width:100%;
+    height:auto;
+}
+
+footer{
+    padding-top:300px;
+    text-align:center;
+}
+
+.form_content{
+    max-width: 400px;
+    margin:auto;
+    background-color:#42d1f4;
+}
+
+#submit{
+    margin-left: 0.5em;
+    margin-bottom: 3em;
+}
+
+#sidebarA { 
+    width: 180px; 
+    float: left; 
+    height: 400px;
+    border-right: 2px solid #ef9c00;
+    background-color: white;
+}
+
+#sidebarA  ul{
+    margin-left: 0;
+    list-style: none;
+}
+
+#sidebarA li{
+    margin-bottom: .5em;
+}
+
+#gripperBox{
+    margin-top:5em;
+    margin-left:25em;
+}
+
+#sidebarB { 
+    width: 180px; 
+    float: right; 
+    
+    padding-left: 10px;
+    border-left: 2px solid #ef9c00;
+     
+}
+
+aside, section, footer, header{
+    /*display: block;*/
+}
+
+
+
+p{
+    max-width:500px;
+    
+}
+section.center {
+   /* max-width: 520px;*/
+    padding-right: 20px;
+    padding-left: 20px;
+       
+}
+
+aside{
+    margin: auto;
+    
+}
+section{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   /* max-width:800px;*/
+   
+}
+section h1 {
+    margin-bottom: 0.35em; 
+}
+section h2 {
+    margin-bottom: 0.35em;
+}
